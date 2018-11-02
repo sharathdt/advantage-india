@@ -1,0 +1,10 @@
+### your site title here
+
+title: Your Site Title
+
+baseurl: /advantage-seniors
+
+### exclude the instructions / write-up in the README.md
+
+exclude:
+- README.md

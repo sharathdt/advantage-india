@@ -1,0 +1,98 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+
+$base-font-family: 'Montserrat', sans-serif;
+$base-font-size:   20px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.7;
+
+$spacing-unit:     30px;
+
+$text-color:       #333;
+$background-color: #fdfdfd;
+
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        1000px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+$css4: true;
+$compatibility: true;
+//it is nessesary to define the variables in sass map instead of :root, for compatibility reasons.
+$variables: (
+  --color: white,
+  --background: skyblue,
+  --font: sans-serif,
+  --brand-color: #f33
+);
+
+//Here we transfer the variables from the map to the :root element
+@if($css4) {
+  :root {
+    @each $variable, $value in $variables {
+      #{$variable}: $value;
+    }
+  }
+}
+
+//this is the "magic" function
+@function var($variable) {
+  @if($css4) {
+    @return unquote('var(' + $variable + ')');
+  } @else {
+    @return map-get($variables, $variable);
+  }
+}
+
+//the mixin temporally sets the $css4 variable to false, compiles the css3 fallback, then makes the variable true again and compiles the css4 code. It should contain properties that use css4 variables, otherwise there will be unnessesary duplication of properties.
+@mixin css4 {
+  @if ($css4) {
+    $css4-backup: $css4;
+    @if($compatibility) {
+      $css4: false !global;
+      @content;
+    }
+    $css4: true !global;
+    @content;
+    $css4: $css4-backup;
+  } 
+  @else {
+    @content;
+  }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "reset",
+        "simple-grid",
+        "style",
+        "nav",
+        "custom"
+;

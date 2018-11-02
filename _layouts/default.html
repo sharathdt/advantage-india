@@ -1,0 +1,86 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - {{site.title}}</title>
+  
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+</head>
+<body style="background-image: url({{site.baseurl}}/img/engage-india-bg.jpg);">
+
+
+
+<div class="container">
+    <header style="background-image: url({{site.baseurl}}/img/kachel.png);">
+       <h1 class="logo-title">advantAge Seniors</h1>
+        <div class="logo">
+            <img src="{{site.baseurl}}/img/Logo.jpg" alt="{{site.title}}">
+        </div>
+    </header>
+    
+    <nav>
+
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Background</a>
+<!--           <a href="#news">Who We Are</a>
+          <a href="#contact">Why We Are</a>
+          <a href="#contact">What We Do</a> -->
+          
+          <div class="dropdown">
+            <div class="dropbtn">About Us 
+              <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+              <a href="{{site.baseurl}}/who-are-we/">Who We Are</a>
+              <a href="{{site.baseurl}}/why-are-we/">Why We Are</a>
+              <a href="{{site.baseurl}}/what-we-do/">What We Do</a>
+            </div>
+          </div> 
+          <a href="#contact">Gallery</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact">Home</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </nav>
+
+    <div class="main-content">
+       <div class="collage text-center">
+            <img  src="{{site.baseurl}}/img/collage-3.png" alt="">
+        </div>
+        
+            <h4 class="text-center grey">THE FUTURE LOOK BLEAK UNLESS YOU ACT DIGILANTLY</h4>
+        
+        <blockquote class="text-center">
+        Whatever your Aged Care needs, we're here to help
+        </blockquote>
+        <br>
+
+  {{ content }}
+
+    </div>
+    
+    
+    <footer>
+        
+    </footer>
+</div>
+
+<!-- Nav Script -->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+</body>
+</html>
