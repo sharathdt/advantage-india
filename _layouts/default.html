@@ -102,21 +102,26 @@
     
     <footer>
         <div class="logo-details">
-            
+            <img width="100" src="{{site.baseurl}}/img/Logo.png" alt="{{site.title}}">
+            <p class="text-left">{{site.description}}</p>
         </div>
         <div class="page-links">
-            
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
         </div>
         <div class="latest-posts">
             <ul>
-                <li><a href="http://advantageseniorsindia.blogspot.com/2018/06/how-often-you-visit-your-aged-parent.html">How Often You Visit Your Aged Parent</a></li>
-                <li><a href="http://advantageseniorsindia.blogspot.com/2018/02/parenting-your-parent-stories-of-five.html">Parenting Your Parent – Stories of Five Loving Daughters</a></li>
-                <li><a href="http://advantageseniorsindia.blogspot.com/2018/02/compassion-fatigue-don-twait-until-it.html">Compassion Fatigue - Don’t Wait Until it Hurts You</a></li>
-                <li><a href="http://advantageseniorsindia.blogspot.com/2018/02/the-aged-you-are-worse-hospitalisation.html">The Aged You Are, The Worse The Hospitalisation is For You</a></li>
+               {% for item in site.data.latest-posts %}
+                <li><a href="{{item.link}}">{{item.title | truncate: 40}}</a></li>
+               {% endfor %}
             </ul>
         </div>
         <div class="contact-us">
-            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nulla laudantium ratione officia voluptatem nostrum autem, earum perspiciatis eos repellat quo quaerat suscipit vel minima, facilis ut sed nihil nesciunt?</p>
         </div>
     </footer>
 </div>

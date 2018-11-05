@@ -1,19 +1,49 @@
 footer {
     margin-top: 2em;
-    padding: 1em 0;
+    padding: 1em 2em;
     min-height: 200px;
     color: #ddd;
     background: #222;
     font-size: $base-font-size * 0.7;
+
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    
+    .logo-details {
+        grid-column: span 4;
+    }
+    .page-links {
+        grid-column: span 2;
+    }
+    .latest-posts {
+        grid-column: span 3;
+    }
+    .contact-us {
+        grid-column: span 3;
+    }
+    p {
+       color: #ddd; 
+       font-size: $base-font-size * 0.7;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
     
     a {
          color: #ddd;
          text-decoration: none;
+         
         
         &:hover {
             color: #fff;
         }
+    }
+    
+    img {
+        -webkit-filter: grayscale(1);
+                filter: grayscale(1);
     }
 }
