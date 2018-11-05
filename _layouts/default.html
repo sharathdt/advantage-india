@@ -19,14 +19,14 @@
     <header style="background-image: url({{site.baseurl}}/img/kachel.png);">
        <h1 class="logo-title">advantAge Seniors</h1>
         <div class="logo">
-            <img src="{{site.baseurl}}/img/Logo.jpg" alt="{{site.title}}">
+            <img src="{{site.baseurl}}/img/Logo.png" alt="{{site.title}}">
         </div>
     </header>
     
     <nav>
 
-        <div class="topnav" id="myTopnav">
-          <!-- <a href="#home" class="active">Background</a> -->
+       <div class="topnav" id="myTopnav">
+          <a href="{{site.baseurl}}/" class="first">Home</a>
            <div class="dropdown">
             <div class="dropbtn">Background <i class="fa fa-caret-down"></i>
             </div>
@@ -36,8 +36,8 @@
             </div>
           </div> 
           
-      <a href="#news">Who We Are</a>
-          <a href="#contact">Why We Are</a>
+        <a href="#news">Who We Are</a>
+        <a href="#contact">Why We Are</a>
 
           
           <div class="dropdown">
@@ -54,9 +54,32 @@
           </div> 
           <a href="#contact">Gallery</a>
           <a href="#contact">Contact</a>
-          <a href="#contact">Home</a>
+          <a class="last" id="home" href="{{site.baseurl}}/">Home</a>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+       
+       
+        <!-- <div class="topnav" id="myTopnav">
+        
+           <div class="dropdown">
+            <div class="dropbtn">Background <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-content">
+              <a href="#">Aging World</a>
+              <a href="#">Aging India</a>
+            </div>
+          </div> 
+          
+        <a href="#news">Who We Are</a>
+        <a href="#contact">Why We Are</a>
+        
+          
+          
+          <a href="#contact">Gallery</a>
+          <a href="#contact">Contact</a>
+          <a id="home" href="{{site.baseurl}}/">Home</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div> -->
 
     </nav>
 
