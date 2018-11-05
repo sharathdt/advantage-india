@@ -71,7 +71,7 @@ header {
 
 nav {
     grid-row: 2;
-    grid-column: 4 / 10;
+    grid-column: 3 / 11;
     height: 50px;
     margin: 0 auto;
     @include media-query($on-palm) {
