@@ -9,7 +9,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
-    align-items: center;
+    /* align-items: center; */
     
     .logo-details {
         grid-column: span 4;
@@ -45,5 +45,29 @@ footer {
     img {
         -webkit-filter: grayscale(1);
                 filter: grayscale(1);
+    }
+    
+    .social {
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            
+            
+            
+            
+            
+            
+            .fa {
+                padding: 8px 10px;
+                background: white;
+                border-radius: 50%;
+                font-size: $base-font-size;
+                color: var(--brand-color);
+                
+                &:hover {
+                    color: $text-color;
+                }
+            }
+        }
     }
 }

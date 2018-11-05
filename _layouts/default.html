@@ -106,14 +106,17 @@
             <p class="text-left">{{site.description}}</p>
         </div>
         <div class="page-links">
+           <h4>Quick Links</h4>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Home</a></li>
+               <!--  <li><a href="{{site.baseurl}}/">Home</a></li> -->
+                <li><a href="">Who We Are?</a></li>
+                <li><a href="">What We Are?</a></li>
+                <li><a href="">What We Do?</a></li>
+                <li><a href="">Gallery</a></li>
             </ul>
         </div>
         <div class="latest-posts">
+            <h4>Latest Posts</h4>
             <ul>
                {% for item in site.data.latest-posts %}
                 <li><a href="{{item.link}}">{{item.title | truncate: 40}}</a></li>
@@ -121,7 +124,14 @@
             </ul>
         </div>
         <div class="contact-us">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nulla laudantium ratione officia voluptatem nostrum autem, earum perspiciatis eos repellat quo quaerat suscipit vel minima, facilis ut sed nihil nesciunt?</p>
+            <h4>Contact Us</h4>
+            <ul class="contact"><li><a href="tel:+91 999 9999999">+91 999 999 9999</a></li><li><a href="mailto:{{site.email}}">{{site.email}}</a></li></ul>
+            
+        <ul class="social">
+            <li><a target="_blank" href="{{site.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a target="_blank" href="{{site.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a target="_blank" href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a></li>
+        </ul>
         </div>
     </footer>
 </div>
