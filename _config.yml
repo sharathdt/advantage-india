@@ -1,6 +1,6 @@
 ### your site title here
 
-title: advantAge Seniors
+title: engAge Seniors
 description: The vision for advantAGE seniors has evolved through many years of social gerontology practice to truly capture the devotion, quality and comfort we know you and your family deserve when it comes to aged care.
 
 phone: +91 98444 95527
@@ -12,7 +12,7 @@ twitter:
 google-plus:
 
 
-baseurl: /advantage-seniors
+baseurl: /engage-seniors
 
 
 
@@ -20,3 +20,4 @@ baseurl: /advantage-seniors
 
 exclude:
 - README.md
+- raw
