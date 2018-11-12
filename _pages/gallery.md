@@ -1,7 +1,7 @@
 ---
 title: Gallery
 permalink: /gallery/
-layout: default
+layout: page
 ---
 
 # {{page.title}}

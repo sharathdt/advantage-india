@@ -1,7 +1,7 @@
 ---
 title: Ageing World
 permalink: /ageing-world/
-layout: default
+layout: page
 ---
 
 <h1 class="page-title">{{page.title}}</h1>

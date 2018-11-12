@@ -1,7 +1,7 @@
 ---
 title: Contact Us
 permalink: /contact/
-layout: default
+layout: page
 ---
 
 # {{page.title}}

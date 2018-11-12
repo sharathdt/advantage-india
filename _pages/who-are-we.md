@@ -1,7 +1,7 @@
 ---
 title: Who Are We?
 permalink: /who-are-we/
-layout: default
+layout: page
 ---
 
 <h1 class="page-title">{{page.title}}</h1>

@@ -45,11 +45,10 @@
               <i class="fa fa-caret-down"></i>
             </div>
             <div class="dropdown-content">
-              <a href="{{site.baseurl}}/activities/">Activities</a>
-              <a href="{{site.baseurl}}/what-we-do/">Activity</a>
-              <a href="{{site.baseurl}}/what-we-do/">Activity</a>
-              <a href="{{site.baseurl}}/what-we-do/">Activity</a>
-              <a href="{{site.baseurl}}/what-we-do/">Activity</a>
+              {% for item in site.data.what-we-do %}
+              <a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
+              {% endfor %}
+              
             </div>
           </div> 
           <a href="{{site.baseurl}}/gallery/">Gallery</a>
@@ -84,16 +83,7 @@
     </nav>
 
     <div class="main-content">
-       <div class="collage text-center">
-            <img  src="{{site.baseurl}}/img/collage-3-light.png" alt="">
-        </div>
-        
-            <h4 class="text-center grey">THE FUTURE LOOK BLEAK UNLESS YOU ACT DIGILANTLY</h4>
-        
-        <blockquote class="text-center">
-        Whatever your Aged Care needs, we're here to help
-        </blockquote>
-        <br>
+       
 
   {{ content }}
 

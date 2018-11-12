@@ -1,7 +1,7 @@
 ---
 title: Why Are We Here?
 permalink: /why-are-we/
-layout: default
+layout: page
 ---
 
 

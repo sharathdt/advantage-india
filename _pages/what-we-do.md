@@ -1,7 +1,7 @@
 ---
 title: What We Do?
 permalink: /what-we-do/
-layout: default
+layout: page
 ---
 
 <h1 class="page-title">{{page.title}}</h1>
