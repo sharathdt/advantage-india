@@ -20,12 +20,18 @@ body {
 }
 
 @include headings {
+	font-family: var(--font);
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 img {
     max-width: 100%;
+}
+
+
+a {
+	word-break: break-all;
 }
 
 .container {
@@ -35,34 +41,40 @@ img {
 }
 
 header {
-    grid-row: 1;
-    grid-column: span 12;
     text-align: center;
-    min-height: 100px;
-
-    background-repeat: repeat-x;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    min-height: 150px;
+	background: rgba(169, 113, 108, 0.23);
+    grid-column: span 12;
     
     @include media-query($on-palm) {
         min-height: auto;
     }
     
     .logo-title {
-        grid-column: 2/4;
-        justify-self: center;
-        align-self: end;
         margin-bottom: 30px;
         font-weight: bold;
-        font-size: $base-font-size * 2;
+        font-size: $base-font-size * 3.5;
         color: var(--brand-color);
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+		
+		span {
+			color: #DD2C00;
+		}
+		
+		@include media-query($on-palm) {
+				margin-bottom: 0;
+				line-height: 1.5;
+			}
     }
     
     
     .logo {
-        grid-column: 4/5;
-        position: relative;
-        top: 100px;
+        position: absolute;
+        top: 16%;
+		right: 20%;
+		
         @include media-query($on-palm) {
             grid-column: 2/3;
             position: static;
@@ -91,6 +103,12 @@ nav {
     max-width: 760px;
     margin: 0 auto;
     
+	@include media-query($on-palm) {
+         grid-column: span 12;
+         margin: 20px;
+    }
+	
+	
     p {
         text-align: justify;
     }

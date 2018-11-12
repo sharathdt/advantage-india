@@ -48,7 +48,7 @@ $variables: (
   --color: white,
   --background: skyblue,
   --font: sans-serif,
-  --brand-color: #f33
+  --brand-color: #F33
 );
 
 //Here we transfer the variables from the map to the :root element
@@ -92,6 +92,7 @@ $variables: (
 @import
         "reset",
         "simple-grid",
+        "web-grid",
         "style",
         "nav",
         "footer",

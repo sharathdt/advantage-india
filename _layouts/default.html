@@ -16,8 +16,8 @@
 
 
 <div class="container">
-    <header style="background-image: url({{site.baseurl}}/img/kachel.png);">
-       <h1 class="logo-title">advantAge Seniors</h1>
+    <header>
+       <h1 class="logo-title">advant<span>Age</span> Seniors</h1>
         <div class="logo">
             <img src="{{site.baseurl}}/img/Logo.png" alt="{{site.title}}">
         </div>
@@ -31,29 +31,29 @@
             <div class="dropbtn">Background <i class="fa fa-caret-down"></i>
             </div>
             <div class="dropdown-content">
-              <a href="#">Aging World</a>
-              <a href="#">Aging India</a>
+              <a href="{{site.baseurl}}/ageing-world/">Ageing World</a>
+              <a href="{{site.baseurl}}/ageing-india/">Ageing India</a>
             </div>
           </div> 
           
-        <a href="#news">Who We Are</a>
-        <a href="#contact">Why We Are</a>
+        <a href="{{site.baseurl}}/who-are-we/">Who We Are</a>
+        <a href="{{site.baseurl}}/why-are-we/">Why We Are</a>
 
           
           <div class="dropdown">
-            <div class="dropbtn">What We Do
+            <div class="dropbtn" onclick="window.location.href='{{site.baseurl}}/what-we-do/'">What We Do
               <i class="fa fa-caret-down"></i>
             </div>
             <div class="dropdown-content">
-              <a href="{{site.baseurl}}/who-are-we/">Activity</a>
-              <a href="{{site.baseurl}}/why-are-we/">Activity</a>
+              <a href="{{site.baseurl}}/activities/">Activities</a>
+              <a href="{{site.baseurl}}/what-we-do/">Activity</a>
               <a href="{{site.baseurl}}/what-we-do/">Activity</a>
               <a href="{{site.baseurl}}/what-we-do/">Activity</a>
               <a href="{{site.baseurl}}/what-we-do/">Activity</a>
             </div>
           </div> 
-          <a href="#contact">Gallery</a>
-          <a href="#contact">Contact</a>
+          <a href="{{site.baseurl}}/gallery/">Gallery</a>
+          <a href="{{site.baseurl}}/contact/">Contact</a>
           <a class="last" id="home" href="{{site.baseurl}}/">Home</a>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
@@ -101,11 +101,12 @@
     
     
     <footer>
-        <div class="logo-details">
+       <div class="r footer-content">
+        <div class="c-4 logo-details">
             <img width="60" src="{{site.baseurl}}/img/Logo.png" alt="{{site.title}}">
             <p class="text-left">{{site.description}}</p>
         </div>
-        <div class="page-links">
+        <div class="c-2 page-links">
            <h4>Quick Links</h4>
             <ul>
                <!--  <li><a href="{{site.baseurl}}/">Home</a></li> -->
@@ -115,7 +116,7 @@
                 <li><a href="">Gallery</a></li>
             </ul>
         </div>
-        <div class="latest-posts">
+        <div class="c-4 latest-posts">
             <h4>Latest Posts</h4>
             <ul>
                {% for item in site.data.latest-posts %}
@@ -123,7 +124,7 @@
                {% endfor %}
             </ul>
         </div>
-        <div class="contact-us">
+        <div class="c-2 contact-us">
             <h4>Contact Us</h4>
             <ul class="contact"><li><a href="tel:+91 999 9999999">+91 999 999 9999</a></li><li><a href="mailto:{{site.email}}">{{site.email}}</a></li></ul>
             
@@ -132,6 +133,7 @@
             <li><a target="_blank" href="{{site.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
             <li><a target="_blank" href="mailto:{{site.email}}"><i class="fa fa-envelope"></i></a></li>
         </ul>
+        </div>
         </div>
     </footer>
 </div>

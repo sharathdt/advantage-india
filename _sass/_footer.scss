@@ -1,28 +1,33 @@
 footer {
     margin-top: 2em;
-    padding: 3em 0 1em 0;
+	padding: 2em 0;
     min-height: 200px;
     color: #ddd;
     background: #222;
     font-size: $base-font-size * 0.7;
 
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
+   
     /* align-items: center; */
-    
-    .logo-details {
-        grid-column: 2/5;
+	.footer-content {
+		max-width: 1200px;
+		/* display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-gap: 10px; */
+		margin: 0 auto;
+	}
+	
+/*     .logo-details {
+        grid-column: span 4;
     }
     .page-links {
-        grid-column: 5/7;
+        grid-column: span 2;
     }
     .latest-posts {
-        grid-column: 7/10;
+        grid-column: span 4;
     }
     .contact-us {
-        grid-column: 10/12;
-    }
+        grid-column: span 2;
+    } */
     p {
        color: #ddd; 
        font-size: $base-font-size * 0.7;

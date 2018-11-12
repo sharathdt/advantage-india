@@ -1,0 +1,22 @@
+---
+title: Ageing World
+permalink: /ageing-world/
+layout: default
+---
+
+<h1 class="page-title">{{page.title}}</h1>
+
+
+In the past, the older adults only comprised a miniscule of the population, never more than 5 percent in any country until well into the Industrial Revolution of the nineteenth century. In the developed world today, the elderly comprise roughly 15 percent of the population. The speed at which the population ageing is happening across the globe is definitely a matter of concern to our society and also to the governments. For example, in some fast-ageing European countries the share could climb to 35 percent and in Japan it may approach 40 percent. According to few predictions, by the year 2050 there will be more people over the age of 60 than children under the age of 15 living on our planet. Most developed countries will not only have ageing populations, but also stagnant or declining one.
+
+
+There are two forces behind global ageing, the first force is falling fertility. The second force is more pertinent for social gerontology and it is the increased life expectancy. People are living longer, and this increases the relative number of old. Over the post war era, life expectancy in the  developed countries has risen by about ten to fifteen years, and is now in the late seventies to early eighties in every country. The second phenomenon in the demography is bit worrying as how we engage and manage these older adults. To explain it further, no demographer believes that the current downward trend in birth-rates will quickly reverse itself, coupled with the fact that 65-year-olds in the year 2030 or 2050 have already been born and can therefore be counted and thus comes to a certain forecast.
+
+
+Equally certain is the direct consequences of global ageing. Most Governments will come under intense pressure from rising expenditures on pensions and health care. Ageing electorates will lock in current spending priorities at the expense of future-oriented investments. Businesses will have to cope with a dearth of young workers, while families will have to cope with a surplus of frail elders. A slowdown in Economic growth is expected  as rates of savings and investment fall and workforces grey and stagnate or decline. United Nations study tells, a massive majority of the world's population is not sufficiently protected in old age against health, disability, income risks and poverty, with only one fifth having access to a pension. In short, millions of older people live in poverty. Family support for older people is weakening under the pressures of  changed social structure, family incoherence, higher poverty, migration and rising food prices.
+
+
+No doubt the ‘Global Ageing Iceberg’ is of massive proportion and we need to tackle this before it is unmanageable. According to us, the good news is that we are by no means helpless in the face of global ageing, with planning and good policymaking, most of the challenges can be overcome and most of the burdens can be ameliorated. Governments must enact timely pension and health-care reforms. Governments must adopt new pro-natal and immigration policies that help to slow the pace of global ageing. By encouraging longer and healthier work lives governments can boost economic growth. But individually must own responsibility and plan our old age to avoid a disastrous ending. 
+
+
+Majority of seniors purposefully gloss over as they are uncomfortable and thinks ageing happens naturally, but ‘ageing well’ takes careful planning. Older adults face many difficult decisions in the last decades of their life. Taking some time to look at the issues ahead and consult a professional can make the future easier and more enjoyable. The earlier one starts planning, the more prepared they will be to respond to changes that may occur in the process of ageing such as changes in health, mobility or social connections. Proper planning should include thinking ahead to the financial, medical, and family issues that one could face in old age. Expect the unexpected is the dictum. This includes planning for what one would do if had a sudden onset of a chronic illness, developed a disability or had a change in resources. As practising social gerontologists, we urge people to plan well before it caught unawares. Making choices now will give you greater control over your independence, quality of life and dignity.
