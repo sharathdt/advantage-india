@@ -1,0 +1,13 @@
+---
+title: Activities
+permalink: /activities/
+layout: page
+---
+
+<h1 class="page-title">{{page.title}}</h1>
+
+The engAGE seniors mission is to empower old people, promote wellness and provide care. If a person lives a good long life, a third of it will be as a senior.  This is a diverse group of people with unique needs and wants.  How then do we, as a society, empower seniors? Senior citizens share many of the same values- they want a good level of health, affordable and appropriate housing, transportation, information, and community engagement. Empowering seniors means the senior is at the centre of discussions and planning for their lives.  Rather than crisis management, that is responding to various issues at the time of a significant shift in health, economics, etc. there is a well thought out plan in place to support the senior into successful aging. 
+
+The reality today is many of the older adults lead a monotonous life often think worthless and without a purpose. Sad that the journey through the twilight zone is lonely and riddled with turmoil. Social isolation, neglect, loneliness and abuse are rampant in old age. Many of the elders feel they are out of place when it comes to deal with community activities and blame the community for less opportunities for social participation. We blame the lack of initiative and planning from the elders themselves for the sad plight. engAGE seniors delivers tailored programming in well-being, the arts, lifelong learning, and intergenerational opportunities, onsite, at no cost to participants.  The engAGE seniors mission is to empower people – intellectually, creatively, emotionally and physically– to do what they do best for the rest of their lives, ultimately gaining satisfaction, life enrichment, and engagement. 
+
+At advanced age, barriers to optimum health include low levels of physical activity; lack of access to programs that promote healthy aging; unavailability of adequate nutrition; and inadequate disease management education and support. Those who pursue healthy behaviours including physical activity, an engaged and optimistic lifestyle, and a healthy diet reduce their risk of chronic disease. Preventing disease, limiting disability, and improving the quality of life for older adults through community-based programs have proven successful in a variety of settings. engAGE seniors has specific wellness initiatives tailored to help older adults change their health behaviours to strengthen and retain independent lifestyles.
