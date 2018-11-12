@@ -52,8 +52,8 @@ header {
     
     .logo-title {
         margin-bottom: 30px;
-        font-weight: bold;
-        font-size: $base-font-size * 3.5;
+        font-weight: 400;
+        font-size: $base-font-size * 3.2;
         color: var(--brand-color);
 		margin: 0 auto;
 		text-align: center;
@@ -73,13 +73,20 @@ header {
     
     .logo {
         position: absolute;
-        top: 16%;
+        top: 12%;
 		right: 20%;
 		
         @include media-query($on-palm) {
             grid-column: 2/3;
             position: static;
         }
+		
+		img {
+			@include media-query($on-palm) {
+				width: 60px;
+			}
+		}
+		
     }
 }
 
@@ -149,4 +156,7 @@ blockquote {
 
 strong {
     font-weight: bold;
+}
+.nostyle {
+	text-decoration: none;
 }
