@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 </head>
 <body style="background-image: url({{site.baseurl}}/img/engage-india-bg.jpg);">
-
-
-
+<div id="loader" class="loader">
+	<div class="lds-dual-ring"></div>
+</div>
 <div class="container">
     <header>
        <a href="{{site.baseurl}}/" class="nostyle"><h1 class="logo-title">ENG<span>AGE</span> SENIORS</h1></a>
@@ -127,7 +127,12 @@
         </div>
     </footer>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function() {
+	jQuery("#loader").hide();
+});
+	</script>
 <!-- Nav Script -->
 <script>
 function myFunction() {
@@ -139,5 +144,6 @@ function myFunction() {
     }
 }
 </script>
+
 </body>
 </html>
