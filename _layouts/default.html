@@ -6,10 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} - {{site.title}}</title>
-  
+
   <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700&text=ENGASNIOR" rel="stylesheet">
 </head>
 <body style="background-image: url({{site.baseurl}}/img/engage-india-bg.jpg);">
 
@@ -21,9 +22,9 @@
 <div class="container">
     <header>
        <a href="{{site.baseurl}}/" class="nostyle"><h1 class="logo-title">ENG<span>AGE</span> SENIORS</h1></a>
-        
+
     </header>
-    
+
     <nav>
 
        <div class="topnav" id="myTopnav">
@@ -35,12 +36,12 @@
               <a href="{{site.baseurl}}/ageing-world/">Ageing World</a>
               <a href="{{site.baseurl}}/ageing-india/">Ageing India</a>
             </div>
-          </div> 
-          
+          </div>
+
         <a href="{{site.baseurl}}/who-are-we/">Who We Are</a>
         <a href="{{site.baseurl}}/why-are-we/">Why We Are</a>
 
-          
+
           <div class="dropdown">
             <div class="dropbtn" >What We Do
               <i class="fa fa-caret-down"></i>
@@ -49,18 +50,18 @@
               {% for item in site.data.what-we-do %}
               <a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a>
               {% endfor %}
-              
+
             </div>
-          </div> 
+          </div>
           <a href="{{site.baseurl}}/gallery/">Gallery</a>
           <a href="{{site.baseurl}}/contact/">Contact</a>
           <a class="last" id="home" href="{{site.baseurl}}/">Home</a>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-       
-       
+
+
         <!-- <div class="topnav" id="myTopnav">
-        
+
            <div class="dropdown">
             <div class="dropbtn">Background <i class="fa fa-caret-down"></i>
             </div>
@@ -68,13 +69,13 @@
               <a href="#">Aging World</a>
               <a href="#">Aging India</a>
             </div>
-          </div> 
-          
+          </div>
+
         <a href="#news">Who We Are</a>
         <a href="#contact">Why We Are</a>
-        
-          
-          
+
+
+
           <a href="#contact">Gallery</a>
           <a href="#contact">Contact</a>
           <a id="home" href="{{site.baseurl}}/">Home</a>
@@ -87,13 +88,13 @@
             <img src="{{site.baseurl}}/img/Logo.png" alt="{{site.title}}">
     </div>
     <div class="main-content">
-       
+
 
   {{ content }}
 
     </div>
-    
-    
+
+
     <footer>
        <div class="r footer-content">
         <div class="c-4 logo-details">
@@ -121,7 +122,7 @@
         <div class="c-2 contact-us">
             <h4>Contact Us</h4>
             <ul class="contact"><li><a href="tel:+91 999 9999999">+91 999 999 9999</a></li><li><a href="mailto:{{site.email}}">{{site.email}}</a></li></ul>
-            
+
         <ul class="social">
             <li><a target="_blank" href="{{site.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
             <li><a target="_blank" href="{{site.twitter}}"><i class="fa fa-twitter-square"></i></a></li>
