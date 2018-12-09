@@ -7,7 +7,6 @@ layout: page
 # {{page.title}}
 
 
-
 <!-- gallery class need for using gallery -->
 <div class="card-columns gallery r">
   <!-- need a div for contains img tag -->
