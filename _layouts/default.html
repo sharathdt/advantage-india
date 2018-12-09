@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crete+Round:400&text=ENGASNIOR" rel="stylesheet">
+  {% if page.url == '/gallery/' %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/gallery.css">
+  {% endif%}
+
 </head>
 <body style="background-image: url({{site.baseurl}}/img/engage-india-bg.jpg);">
 
@@ -133,6 +137,9 @@
     </footer>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+{% if page.url == '/gallery/' %}
+<script src="{{site.baseurl}}/js/gallery.js"></script>
+{% endif%}
 <script>
 jQuery(document).ready(function() {
 	jQuery("#loader").hide();
