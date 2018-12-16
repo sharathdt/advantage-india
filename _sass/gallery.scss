@@ -97,4 +97,10 @@
 .galleryIcon {
     cursor: pointer;
 }
+
+.galleryItem.card.c-3 {
+    @include media-query($on-palm) {
+      height: 250px;
+    }
+}
 /*# sourceMappingURL=main.css.map */
