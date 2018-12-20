@@ -6,7 +6,7 @@ layout: page
 
 <h1 class="page-title">{{page.title}}</h1>
 
-### ROSHAN JACOB 
+### ROSHAN JACOB
 
 Our Chairman, Roshan Jacob got inspired to start a home based care for the elderly after working many years in many corporate hospitals. For many years, Jacob worked in healthcare as a hospital administrator. While in the hospital environment, he watched many of his patients – especially seniors – leave the facility and return home, but not necessarily return to health. Once home, a lot of his former patients were unable to care for themselves. During when he worked at the hospitals he felt that there is a massive dearth of quality services to the elderly and Mr. Jacob realized that he could make a difference, not just in the senior care industry but by providing reliable and compassionate long term care for people of all ages.
 
@@ -30,8 +30,7 @@ Soumya Nair joined engAGE seniors in the year 2002, and soon she took over the m
 She advocates for more senior friendly approaches and civic responsibility through her Nurse Competency Lectures, and regular columns in dailies. She reaches out to the infirm elderly and long term care patients through her two NGOs, engAGE and Swavalambhini, which provide elder care, long term care, education, training, counselling and health care to the urban and rural poor. Her latest initiative, “Continuing Competency for Nurses”, aims to equip the nurse fraternity with the skills in guided care nursing.
 
 
-"What makes Soumya ... one of the most admired senor service provider is the way she reaches out to people as a social gerontolist and person behind two organizations founded for causes close to her heart -- senior's welfare and distressed women's development through skill development." wrote India Today. Profiled by India Today as a low profile and dedicated women entrepreneur, Soumya considers her work among the infirm elderly and the rehabilitated distressed women should inspire the younger generation because she thinks more and more women should be sensitive to elder care issues.
+"What makes Soumya ... one of the most admired senior service provider is the way she reaches out to people as a social gerontologist and person behind two organizations founded for causes close to her heart -- senior's welfare and distressed women's development through skill development." wrote India Today. Profiled by India Today as a low profile and dedicated women entrepreneur, Soumya considers her work among the infirm elderly and the rehabilitated distressed women should inspire the younger generation because she thinks more and more women should be sensitive to elder care issues.
 
 
 Organising seminars on pre-retirement, Conducting workshops in Continuing Competency for Nurses, counselling senior citizens and their family members and training young people for caregiving, takes up the bulk of Nair's day. Today, Soumya is a beacon of hope for the hundreds of senior citizens and their families who are in the twilight of their life, filled with pent-up frustrations due ill health and the issues of caregiving. She considers the smile in the face of an elderly patient as a bonus.
-
