@@ -98,7 +98,7 @@
             <h4>Latest Posts</h4>
             <ul>
                {% for item in site.data.latest-posts %}
-                <li><a href="{{item.link}}">{{item.title | truncate: 40}}</a></li>
+                <li><a href="{{item.link}}">{{item.title | truncate: 35}}</a></li>
                {% endfor %}
             </ul>
         </div>
