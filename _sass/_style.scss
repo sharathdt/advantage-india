@@ -182,3 +182,21 @@ strong {
 .nostyle {
 	text-decoration: none;
 }
+
+
+.copyright {
+  padding: 10px 0;
+  background: #111;
+  color: #ddd;
+  p {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 14px;
+  }
+
+  a {
+    color: var(--brand-color);
+    text-decoration: none;
+  }
+
+}
